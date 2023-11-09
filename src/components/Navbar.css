@@ -1,8 +1,8 @@
-.nav {
+/* .nav {
   background-color: #000000;
   height: 88px;
   position: relative;
-  width: 1920px;
+  width: 100%;
 }
 
 .nav .link {
@@ -14,12 +14,25 @@
   position: absolute;
   top: 24px;
   width: 220px;
+  text-decoration: none;
+
 }
 
+.dot {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 160px;
+  margin-top: 22px;
+}
+.navbar{
+  color: white;
+}
 .nav .enlight {
   color: #ffffff;
   font-family: "Lato-Light", Helvetica;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 300;
   height: 36px;
   left: -45px;
@@ -185,4 +198,147 @@
 
 
 
+ */
 
+
+
+ .nav {
+  background-color: #000000;
+  height: 88px;
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+
+}
+
+.nav .link {
+  background-image: url(./link.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 43px;
+  left: 375px;
+  position: absolute;
+  top: 24px;
+  width: 220px;
+  text-decoration: none;
+}
+
+.dot {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 160px;
+  margin-top: 26px;
+}
+
+.navbar {
+  margin-right: 150px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  gap: 120px;
+  padding-top: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav .enlight {
+  color: #ffffff;
+  font-family: "Lato-Light", Helvetica;
+  font-size: 45px;
+  font-weight: 300;
+  height: 36px;
+  left: -45px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 10px;
+  width: 128px;
+}
+
+.nav .list-item-link-home,
+.nav .list-item-link-about,
+.nav .list-item-link-charities,
+.nav .list-item-link-pages {
+  color: white;
+  font-family: "Lato-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  height: 18px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.nav .list-item-link-home:hover,
+.nav .list-item-link-about:hover,
+.nav .list-item-link-charities:hover,
+.nav .list-item-link-pages:hover {
+  color: purple;
+}
+
+.nav .list-item-link.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav .list-item-link.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.nav .list-item-link.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.nav .list-item-link.dropdown span {
+  color: #ffffff;
+  font-family: "Lato-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+  width: 3%;
+}
+
+.nav .list-item-link.dropdown .dropdown-content a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav .list-item-link.dropdown .dropdown-content a:hover {
+  background-color: #d261d4;
+  color: #fff;
+}
+
+.nav .div-wrapper {
+  background-color: #d261d4;
+  height: 40px;
+  position: relative;
+  width: 89px;
+}
+
+.nav .text-wrapper {
+  color: #ffffff;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  padding-left: 15px;
+  white-space: nowrap;
+  font-weight: 800;
+  width: 49px;
+}

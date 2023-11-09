@@ -47,7 +47,9 @@ const Donate = () => {
   };
 
   return (
-    <div>
+    <div className="page-container">
+      <div className="form-container">
+
       <h2>Donate Page</h2>
       {isDonationSubmitted && (
         <p>Thank you for your donation!</p>
@@ -88,7 +90,7 @@ const Donate = () => {
             </label>
             <br />
 
-            <label>
+            <label className="pn">
               Phone Number:
               <input
                 type="tel"
@@ -99,7 +101,7 @@ const Donate = () => {
             </label>
             <br />
 
-            <label>
+            <label className="ad">
               Amount to Donate:
               <input
                 type="number"
@@ -114,6 +116,7 @@ const Donate = () => {
 
         <button type="submit">Donate</button>
       </form>
+      </div>
     </div>
   );
 };

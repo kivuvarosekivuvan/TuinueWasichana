@@ -13,10 +13,12 @@ const Navbar = () => {
     <div className="nav">
       <div className="link">
         <div className="enlight">CHARITY</div>
+        <div className='dot'></div>
       </div>
-      <Link to="/signup">
+      {/* <Link to="/signup">
         <button className="welcome-button">Register</button>
-      </Link>
+      </Link> */}
+      <div className="navbar">
       <button className='list-item-link-home'>
         <Link to="/">Home</Link>
       </button>
@@ -35,6 +37,7 @@ const Navbar = () => {
       </div>
       <div className="div-wrapper">
         <Link to="/donate" className="text-wrapper">Donate</Link>
+      </div>
       </div>
     </div>
   );

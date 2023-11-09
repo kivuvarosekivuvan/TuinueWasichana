@@ -10,7 +10,7 @@ const Homepage = () => {
         <p className="heading-together">Together we can make a difference</p>
       </div>
       <div className="link">
-        <Link to="/charities">
+        <Link to="/donate">
         <div className="text-wrapper">Donate Now</div>
         </Link>
       </div>
