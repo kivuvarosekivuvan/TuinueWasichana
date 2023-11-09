@@ -1,0 +1,217 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 77, 204, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 32px 94px 216px 27px;
+    text-align: center;
+    width: 637px;
+    position: relative;
+  }
+  
+  
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6881cd;
+  }
+  
+  .input-container {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #d665c3c9;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 11px 22px;
+    border: 1px solid rgba(65, 105, 225, 0.1);
+    border-radius: 11px;
+    color:black;
+  }
+  
+  .login-button {
+    background-color: #6d38c2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 99px 14px 106px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    color: #6f1ea5;
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: rgba(104, 129, 205, 0.8);
+    text-decoration: none;
+  }
+  
+  .login-box.login {
+    display: block;
+  }
+  /* Signup.css */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(65, 105, 225, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 32px 94px 216px 27px;
+    text-align: center;
+    width: 637px;
+    position: relative;
+  }
+  
+  .TUINUE WASICHANA{
+    width: 280px;
+    height: 58px;
+    margin: 0 121px 79px 115px;
+    font-family: Karma;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6881cd;
+  }
+  
+  .TUINUE WASICHANA .text-style-1 {
+    font-family: JacquesFrancoisShadow;
+    font-size: 96px;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6881cd;
+  }
+  
+  .input-container {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0619c4e3;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 11px 22px;
+    border: 1px solid rgba(65, 105, 225, 0.1);
+    border-radius: 11px;
+    color:rgb(28, 5, 160);
+  }
+  
+  .signup-button {
+    background-color: #6725be;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 99px 14px 106px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-link {
+    color: #6011c7;
+    margin-top: 15px;
+  }
+  
+  .signup-link a {
+    color: rgba(99, 44, 189, 0.8);
+    text-decoration: none;
+  }
+  
+  .signup-box.signup {
+    display: block;
+  }
+  /* Logo (Grabzzz) styles */
+  .TUINUE WASICHANA{
+    width: 280px;
+    height: 58px;
+    margin: 0 121px 79px 115px;
+    font-family: Karma;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6881cd;
+  }
+  
+  .TUINUE WASICHANA .text-style-1 {
+    font-family: JacquesFrancoisShadow;
+    font-size: 96px;
+    font-weight: normal;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-button {
+    background-color: #0a33e7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  .welcome-button:hover {
+    background-color: #bc9696;
+    /* Same as normal state */
+    color: #fff;
+    /* Same as normal state */
+    box-shadow: 0 0 10px rgba(214, 14, 214, 0.445);
+  }
+  

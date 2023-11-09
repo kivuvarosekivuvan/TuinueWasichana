@@ -1,0 +1,63 @@
+.section {
+    background-color: grey;
+      background-image: url(./section.png);
+      background-position: 50% 50%;
+      background-size: cover;
+      height: 800px;
+      position: relative;
+      width: 1920px;
+    }
+    
+    .section .overlap-group {
+      height: 139px;
+      left: 390px;
+      position: absolute;
+      top: 280px;
+      width: 903px;
+    }
+    
+    .section .heading-tuinue {
+      color: #ffff;
+      font-family: "Montserrat-Black", Helvetica;
+      font-size: 80px;
+      font-weight: 900;
+      height: 97px;
+      left: 0;
+      letter-spacing: 0;
+      line-height: 60px;
+      position: absolute;
+      top: 0;
+      width: 903px;
+    }
+    
+    .section .heading-together {
+      color: #ffffff;
+      font-family: "Lato-Light", Helvetica;
+      font-size: 30px;
+      font-weight: 300;
+      height: 60px;
+      left: 0;
+      letter-spacing: 0;
+      line-height: 60px;
+      position: absolute;
+      top: 79px;
+      white-space: nowrap;
+      width: 448px;
+    }
+
+    .section .ourstory {
+        color: #ffffff;
+        font-family: "Lato-Light", Helvetica;
+        font-size: 20px;
+        font-weight: 300;
+        height: 60px;
+        left: 400px;
+        letter-spacing: 0;
+        position: absolute;
+        top: 420px;
+        width: 610px;
+
+      }
+    
+    
+    

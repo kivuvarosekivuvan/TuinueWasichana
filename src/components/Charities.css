@@ -1,0 +1,128 @@
+.section {
+    background-color: grey;
+    background-image: url(./section.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%; /* Change to 100% to adapt to the viewport width */
+    position: relative;
+  }
+  
+  .section .overlap-group {
+    height: 139px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    position: absolute;
+    top: 50px;
+    width: 90%; /* Adjust the width as needed */
+    max-width: 1200px; /* Add a maximum width to limit the content width */
+  }
+  
+  .section .heading-tuinue {
+    color: #ffff;
+    font-family: "Montserrat-Black", Helvetica;
+    font-size: 80px;
+    font-weight: 900;
+    height: 97px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 60px; /* Adjust line height for better readability */
+    position: absolute;
+    top: 0;
+    width: 903px; /* Adjust the width as needed */
+  }
+  
+  .section .heading-together {
+    color: #ffffff;
+    font-family: "Lato-Light", Helvetica;
+    font-size: 30px;
+    font-weight: 300;
+    height: 60px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 1.2; /* Adjust line height for better readability */
+    position: absolute;
+    top: 79px;
+    width: 100%; /* Adjust the width as needed */
+    text-align: left; /* Center the text horizontally */
+    white-space: nowrap;
+  }
+  
+  .section .charities-list {
+    background-color: #d261d4; /* Background color for the charities list */
+    padding: 20px;
+    border-radius: 10px; /* Add a border radius for a box-like appearance */
+    position: absolute;
+    top: 250px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 90%; /* Adjust the width as needed */
+    max-width: 1200px; /* Add a maximum width to limit the content width */
+  }
+  
+  .section .charities-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section .charities-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section .charities-list li {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for individual charities in the list */
+  .section .charities-list h3 {
+    font-size: 20px;
+  }
+  
+  .section .charities-list img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a border to the images */
+    border-radius: 5px; /* Add border radius to the images */
+  }
+  
+  .section .charities-list p {
+    font-size: 16px;
+  }
+  
+  .section .charities-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  /* Add a class to style each individual charity entry */
+.charity-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the image */
+  .charity-entry img {
+    max-width: 220px; /* Set the maximum width for the image */
+    height: 200px;
+    margin-right: 20px; /* Add some spacing between the image and text */
+  }
+  
+  /* Style the description text */
+  .charity-entry p {
+    flex: 1; /* Allow the text to flexibly take up available space */
+    font-size: 16px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .section .charities-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Adjust the layout of the unordered list */
+  .section .charities-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
